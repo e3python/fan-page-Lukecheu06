@@ -1,0 +1,88 @@
+/* Body styling - Dark theme with centered layout */
+body {
+  background-color: #0a0808; /* Dark background for sci-fi aesthetic */
+  text-align: left;
+  padding: 20px; /* Breathing room around edges */
+  max-width: 1200px; /* Prevents content from stretching too wide */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Main title (h1) - Eye-catching header with purple background */
+h1 {
+    font-family: 'Georgia', serif; /* Elegant serif font for main title */
+    color: rgb(0, 195, 255); /* Bright cyan color */
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 2px; /* Spreads letters for visual impact */
+    background-color: rgba(98, 0, 255, 0.378); /* Semi-transparent purple background */
+    padding: 20px;
+    border-bottom: 3px solid rgb(0, 255, 128); /* Orange bottom border accent */
+    margin-bottom: 30px; /* Space below title */
+}
+
+/* Section headings (h4) - Blue accent with left border */
+h4 {
+    font-family: 'Arial', sans-serif; /* Clean sans-serif for readability */
+    font-size: 24px;
+    color: rgb(0, 110, 255); /* Blue text */
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgba(255, 0, 0, 0.15); /* Light red background tint */
+    padding: 15px; /* Internal spacing */
+    border-left: 5px solid rgb(0, 110, 255); /* Blue left border for emphasis */
+}
+
+/* Default image styling - Floats right with blue border */
+img {
+  float: right; /* Positions images to the right of text */
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-color: rgb(0, 94, 255); /* Blue border matches theme */
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Banner images - Full width for visual impact */
+img[alt="Banner"] {
+  width: 95%; /* Nearly full width */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Paragraph styling - Light blue text with subtle background */
+p {
+  color: rgb(0, 128, 255); /* Blue text color */
+  font-family: 'Verdana', sans-serif; /* Clean, readable font */
+  font-size: 16px;
+  line-height: 1.6; /* Increases line spacing for readability */
+  padding: 15px; /* Internal padding creates breathing room */
+  margin: 15px 0; /* Vertical spacing between paragraphs */
+  background-color: rgba(0, 128, 255, 0.05); /* Subtle blue background */
+  border-radius: 8px; /* Rounded corners for modern look */
+}
+
+/* Special red text paragraphs - For emphasis */
+p[style*="rgb(255, 0, 0)"] {
+  color: rgb(255, 0, 0); /* Red text for important content */
+}
+
+/* List items - Green text for key information */
+li {
+  color: green; /* Green text for list items */
+}
+
+/* Featured image class - Distinctive styling for highlighted images */
+.featured-image {
+  float: left; /* Floats left (opposite of default images) */
+  width: 320px; /* Larger than standard images */
+  height: 320px;
+  border-color: rgb(149, 55, 55); /* Orange border instead of blue */
+  border-width: 6px; /* Thicker border for emphasis */
+  border-style: double; /* Double line border style */
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 8px 16px rgba(223, 105, 62, 0.4); /* Orange shadow creates depth */
+  margin: 20px 20px 20px 0; /* Extra spacing around featured image */
+  transform: scale(1); /* Base scale for transitions */
+  transition: transform 0.3s ease; /* Smooth transform animations */
+}
