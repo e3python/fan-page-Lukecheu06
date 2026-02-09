@@ -75,13 +75,13 @@ li {
 /* Featured image class - Distinctive styling for highlighted images */
 .featured-image {
   float: left; /* Floats left (opposite of default images) */
-  width: 320px; /* Larger than standard images */
-  height: 320px;
+  width: 420px; /* Larger than standard images */
+  height: 300px;
   border-color: rgb(149, 55, 55); /* Orange border instead of blue */
   border-width: 6px; /* Thicker border for emphasis */
   border-style: double; /* Double line border style */
   border-radius: 15px; /* More rounded corners */
-  box-shadow: 0 8px 16px rgba(223, 105, 62, 0.4); /* Orange shadow creates depth */
+  box-shadow: 0 8px 16px rgba(255, 68, 0, 0.4); /* Orange shadow creates depth */
   margin: 20px 20px 20px 0; /* Extra spacing around featured image */
   transform: scale(1); /* Base scale for transitions */
   transition: transform 0.3s ease; /* Smooth transform animations */
